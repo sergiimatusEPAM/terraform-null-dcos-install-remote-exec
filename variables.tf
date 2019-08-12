@@ -80,7 +80,7 @@ variable "windows_private_agent_passwords" {
 }
 
 variable "windows_private_agent_username" {
-  default     = "Administrator"
+  default     = "dcosadmin"
   description = "Username for the WinRM connection"
 }
 

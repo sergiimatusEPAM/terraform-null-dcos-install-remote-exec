@@ -187,7 +187,7 @@ EOF
 | public\_agents\_os\_user | The OS user to be used with ssh exec (only for public agents) | string | `""` | no |
 | windows\_private\_agent\_passwords | List of private windows agent passwords to be used for WinRM | list | `<list>` | no |
 | windows\_private\_agent\_private\_ips | List of private windows agent IPs to WinRM to | list | `<list>` | no |
-| windows\_private\_agent\_username | Username for the WinRM connection | string | `"Administrator"` | no |
+| windows\_private\_agent\_username | Username for the WinRM connection | string | `"dcosadmin"` | no |
 
 ## Outputs
 
